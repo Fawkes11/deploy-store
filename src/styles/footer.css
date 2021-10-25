@@ -1,4 +1,8 @@
-#footer{
-    background-color: rgba(43, 13, 2, 1);
-    color: rgba(174, 122, 71, 1);
+#footer {
+  background-color: rgba(43, 13, 2, 1);
+  color: rgba(174, 122, 71, 1);
+}
+
+.nav-link {
+  color: white;
 }
