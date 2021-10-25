@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/deploy-store/static/css/main.02144b0c.chunk.css",
-    "main.js": "/deploy-store/static/js/main.6634a927.chunk.js",
-    "main.js.map": "/deploy-store/static/js/main.6634a927.chunk.js.map",
-    "runtime-main.js": "/deploy-store/static/js/runtime-main.e16f4bab.js",
-    "runtime-main.js.map": "/deploy-store/static/js/runtime-main.e16f4bab.js.map",
+    "main.js": "/deploy-store/static/js/main.8200eb73.chunk.js",
+    "main.js.map": "/deploy-store/static/js/main.8200eb73.chunk.js.map",
+    "runtime-main.js": "/deploy-store/static/js/runtime-main.eddcbd3a.js",
+    "runtime-main.js.map": "/deploy-store/static/js/runtime-main.eddcbd3a.js.map",
     "static/css/2.0a9ec390.chunk.css": "/deploy-store/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1a5fb918.chunk.js": "/deploy-store/static/js/2.1a5fb918.chunk.js",
-    "static/js/2.1a5fb918.chunk.js.map": "/deploy-store/static/js/2.1a5fb918.chunk.js.map",
-    "static/js/3.2764e5c8.chunk.js": "/deploy-store/static/js/3.2764e5c8.chunk.js",
-    "static/js/3.2764e5c8.chunk.js.map": "/deploy-store/static/js/3.2764e5c8.chunk.js.map",
+    "static/js/2.ca3b1b41.chunk.js": "/deploy-store/static/js/2.ca3b1b41.chunk.js",
+    "static/js/2.ca3b1b41.chunk.js.map": "/deploy-store/static/js/2.ca3b1b41.chunk.js.map",
+    "static/js/3.8a979710.chunk.js": "/deploy-store/static/js/3.8a979710.chunk.js",
+    "static/js/3.8a979710.chunk.js.map": "/deploy-store/static/js/3.8a979710.chunk.js.map",
     "index.html": "/deploy-store/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/deploy-store/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.02144b0c.chunk.css.map": "/deploy-store/static/css/main.02144b0c.chunk.css.map",
-    "static/js/2.1a5fb918.chunk.js.LICENSE.txt": "/deploy-store/static/js/2.1a5fb918.chunk.js.LICENSE.txt",
+    "static/js/2.ca3b1b41.chunk.js.LICENSE.txt": "/deploy-store/static/js/2.ca3b1b41.chunk.js.LICENSE.txt",
     "static/media/img-carousel-1.29dfd1e6.jpg": "/deploy-store/static/media/img-carousel-1.29dfd1e6.jpg",
     "static/media/img-carousel-2.a6649cf7.jpg": "/deploy-store/static/media/img-carousel-2.a6649cf7.jpg",
     "static/media/img-carousel-3.757b2a4e.jpg": "/deploy-store/static/media/img-carousel-3.757b2a4e.jpg",
     "static/media/logo@2x.04dd1c3c.png": "/deploy-store/static/media/logo@2x.04dd1c3c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e16f4bab.js",
+    "static/js/runtime-main.eddcbd3a.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1a5fb918.chunk.js",
+    "static/js/2.ca3b1b41.chunk.js",
     "static/css/main.02144b0c.chunk.css",
-    "static/js/main.6634a927.chunk.js"
+    "static/js/main.8200eb73.chunk.js"
   ]
 }
