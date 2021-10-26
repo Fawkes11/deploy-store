@@ -1,0 +1,24 @@
+.card {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(63, 21, 3, 0.47);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(2px);
+}
+.card img {
+  width: 128px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
