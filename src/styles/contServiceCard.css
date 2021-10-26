@@ -1,0 +1,13 @@
+.contServiceCard {
+  padding-bottom: 15px;
+  background-image: url(../images/img-serviceCont.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contServiceCard .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
