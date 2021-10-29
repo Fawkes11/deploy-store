@@ -1,8 +1,9 @@
 import Carousel from '../components/Carousel'
-import moduleName from '../components/Presentation'
 import React, { Component } from 'react'
 import Presentation from '../components/Presentation'
 import PreviewServices from '../components/PreviewServices'
+import TestimonialCarousel from '../components/TestimonialCarousel'
+import Recommendations from '../components/Recommendations'
 
 export default class Home extends Component {
     render() {
@@ -10,7 +11,9 @@ export default class Home extends Component {
             <div>
                 <Carousel />
                 <Presentation />
-                <PreviewServices />
+                <Recommendations />
+                <PreviewServices />                
+                <TestimonialCarousel />
             </div>
         )
     }

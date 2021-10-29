@@ -1,0 +1,9 @@
+.carouselItem {
+  padding: 50px 20px;
+  background-color: rgba(113, 185, 112, 0.9);
+  border-radius: 10px;
+}
+
+.captionCarousel {
+  top: 25%;
+}
