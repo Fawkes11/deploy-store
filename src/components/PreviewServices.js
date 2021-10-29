@@ -31,14 +31,14 @@ export default function PreviewServices() {
                 <Col>
                     <ServiceCard
                     img={img_services_c}
-                    tittle="Matrimonios"
+                    tittle="Cenas Romanticas"
                     text="lLorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nobis reprehenderit earum cupiditate sed."
                     />
                 </Col>
                 <Col>
                     <ServiceCard
                     img={img_services_d}
-                    tittle="Matrimonios"
+                    tittle="Cumpleaños"
                     text="lLorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nobis reprehenderit earum cupiditate sed."
                     />
                 </Col>
