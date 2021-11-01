@@ -30,7 +30,7 @@ const recommendations = () => {
                         </Row>
                     </Col>
                     <Col md={6} className="mt-3" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <Image fluid rounded src={img_menu} style={{width: '90%'}}/>
+                        <Image fluid rounded src={img_menu} style={{width: '90%', marginBottom: '15px'}}/>
                     </Col>
                 </Row>
             </Container>

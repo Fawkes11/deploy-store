@@ -1,52 +1,53 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import ServiceCard from './Cards/ServiceCard'
 import {Container, Row, Col} from 'react-bootstrap'
-
-import img_services_a from '../images/mask.png'
-import img_services_b from '../images/pastel-de-boda.png'
-import img_services_c from '../images/cena.png'
-import img_services_d from '../images/party.png'
 
 import '../styles/contServiceCard.css'
 
 
-export default function PreviewServices() {
-    return (
+ const PreviewServices = () => {
+
+    const [servicios, setServicios] = useState([])
+    useEffect(() => {
+        llamadoServicios();
+    },[])
+
+    const llamadoServicios = async() => {
+
+        try {
+            const res = await fetch("http://localhost:3000/deploy-store/services.json");
+            const data = await res.json();
+            console.log(data)
+            setServicios(data);
+          } catch (error) {
+            console.log(error);
+          }
+
+    }
+
+    return(
+
         <Container fluid className="contServiceCard">
             <Row>
-                <Col>
-                    <ServiceCard
-                    img={img_services_a}
-                    tittle="Fiestas Tematicas"
-                    text="lLorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nobis reprehenderit earum cupiditate sed."
-                    />
-                </Col>
-                <Col>
-                    <ServiceCard
-                    img={img_services_b}
-                    tittle="Matrimonios"
-                    text="lLorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nobis reprehenderit earum cupiditate sed."
-                    />
-                </Col>
-                <Col>
-                    <ServiceCard
-                    img={img_services_c}
-                    tittle="Cenas Romanticas"
-                    text="lLorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nobis reprehenderit earum cupiditate sed."
-                    />
-                </Col>
-                <Col>
-                    <ServiceCard
-                    img={img_services_d}
-                    tittle="Cumpleaños"
-                    text="lLorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nobis reprehenderit earum cupiditate sed."
-                    />
-                </Col>
-                
+                {
+                    servicios.map((serv) => {
+                        return(
+                            <Col>
+                                <ServiceCard
+                                img={serv.img}
+                                tittle={serv.tittle}
+                                text={serv.text}
+                                />
+                            </Col> 
+                        )
+                    })
+                }             
             </Row>
             
-
         </Container>
-        
+
     )
+    
 }
+
+export default PreviewServices
