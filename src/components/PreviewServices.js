@@ -15,9 +15,8 @@ import '../styles/contServiceCard.css'
     const llamadoServicios = async() => {
 
         try {
-            const res = await fetch("http://localhost:3000/deploy-store/services.json");
+            const res = await fetch('deploy-store/services.json');
             const data = await res.json();
-            console.log(data)
             setServicios(data);
           } catch (error) {
             console.log(error);
