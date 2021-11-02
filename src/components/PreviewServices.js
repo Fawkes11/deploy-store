@@ -8,20 +8,19 @@ import '../styles/contServiceCard.css'
  const PreviewServices = () => {
 
     const [servicios, setServicios] = useState([])
+
     useEffect(() => {
         llamadoServicios();
     },[])
 
     const llamadoServicios = async() => {
-
         try {
-            const res = await fetch('deploy-store/services.json');
+            const res = await fetch('https://my-json-server.typicode.com/Fawkes11/FAKE_API_services/services');
             const data = await res.json();
             setServicios(data);
           } catch (error) {
             console.log(error);
           }
-
     }
 
     return(
@@ -29,9 +28,9 @@ import '../styles/contServiceCard.css'
         <Container fluid className="contServiceCard">
             <Row>
                 {
-                    servicios.map((serv) => {
+                    servicios.map((serv,id) => {
                         return(
-                            <Col>
+                            <Col key={id}>
                                 <ServiceCard
                                 img={serv.img}
                                 tittle={serv.tittle}
