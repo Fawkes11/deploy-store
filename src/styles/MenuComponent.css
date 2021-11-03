@@ -1,0 +1,9 @@
+.menuComponentContainer {
+  background-color: #807e2a;
+}
+
+.cElementsMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

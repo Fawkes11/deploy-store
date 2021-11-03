@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import EmployeeCard from './Cards/EmployeeCard'
 import {Container, Row, Col} from 'react-bootstrap'
 
+import '../styles/contEmployeeCard.css'
+
 
 
 
@@ -30,7 +32,7 @@ import {Container, Row, Col} from 'react-bootstrap'
                 {
                     empleados.map((empleado) => {
                         return(
-                            <Col key={empleado.id}>
+                            <Col className='cElementsEmp' key={empleado.id}>
                                 <EmployeeCard
                                 photo={empleado.photo}
                                 name={empleado.name}

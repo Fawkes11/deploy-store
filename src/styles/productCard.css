@@ -1,0 +1,39 @@
+.productCard {
+  background-color: #eadac0;
+  border: none;
+  margin-top: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productCard Img {
+  width: 128px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.productCardtitle {
+  text-transform: capitalize;
+}
+
+.productCardBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.productCardButton {
+  border: none;
+  background-color: #91491a;
+}
+.productCardButton:hover {
+  background-color: #740005;
+}
+.productCardButton:focus {
+  border: none;
+  background-color: #740005;
+}
