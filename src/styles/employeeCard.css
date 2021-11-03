@@ -1,0 +1,20 @@
+.employeeCard {
+  border: none;
+  background-color: #e2e0d5;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.employeeCardImg {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.employeeCardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

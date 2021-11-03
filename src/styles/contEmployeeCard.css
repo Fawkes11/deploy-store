@@ -1,12 +1,11 @@
-.contServiceCard {
+.contEmployeesCard {
   padding-bottom: 15px;
-  background-image: url(../images/img-serviceCont.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.cElements {
+.cElementsEmp {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -30,7 +30,7 @@ import '../styles/contServiceCard.css'
                 {
                     servicios.map((serv,id) => {
                         return(
-                            <Col key={id}>
+                            <Col className='cElements' key={id}>
                                 <ServiceCard
                                 img={serv.img}
                                 tittle={serv.tittle}

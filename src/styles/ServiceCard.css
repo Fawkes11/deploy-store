@@ -1,4 +1,4 @@
-.card {
+.serviceCard {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
@@ -10,13 +10,13 @@
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(2px);
 }
-.card img {
+.serviceCardImg {
   width: 128px;
   margin: auto;
   margin-top: 10px;
 }
 
-.card-body {
+.serviceCardBody {
   display: flex;
   flex-direction: column;
   justify-content: center;
