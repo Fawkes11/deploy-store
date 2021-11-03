@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/deploy-store/static/css/main.8702bc04.chunk.css",
-    "main.js": "/deploy-store/static/js/main.e56f3432.chunk.js",
-    "main.js.map": "/deploy-store/static/js/main.e56f3432.chunk.js.map",
-    "runtime-main.js": "/deploy-store/static/js/runtime-main.897d5cae.js",
-    "runtime-main.js.map": "/deploy-store/static/js/runtime-main.897d5cae.js.map",
+    "main.css": "/deploy-store/static/css/main.0b7f2ebf.chunk.css",
+    "main.js": "/deploy-store/static/js/main.fcd131c3.chunk.js",
+    "main.js.map": "/deploy-store/static/js/main.fcd131c3.chunk.js.map",
+    "runtime-main.js": "/deploy-store/static/js/runtime-main.933c36a8.js",
+    "runtime-main.js.map": "/deploy-store/static/js/runtime-main.933c36a8.js.map",
     "static/css/2.0a9ec390.chunk.css": "/deploy-store/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.b37b0bd6.chunk.js": "/deploy-store/static/js/2.b37b0bd6.chunk.js",
-    "static/js/2.b37b0bd6.chunk.js.map": "/deploy-store/static/js/2.b37b0bd6.chunk.js.map",
-    "static/js/3.72697018.chunk.js": "/deploy-store/static/js/3.72697018.chunk.js",
-    "static/js/3.72697018.chunk.js.map": "/deploy-store/static/js/3.72697018.chunk.js.map",
+    "static/js/2.ddd71125.chunk.js": "/deploy-store/static/js/2.ddd71125.chunk.js",
+    "static/js/2.ddd71125.chunk.js.map": "/deploy-store/static/js/2.ddd71125.chunk.js.map",
+    "static/js/3.a045d668.chunk.js": "/deploy-store/static/js/3.a045d668.chunk.js",
+    "static/js/3.a045d668.chunk.js.map": "/deploy-store/static/js/3.a045d668.chunk.js.map",
     "index.html": "/deploy-store/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/deploy-store/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.8702bc04.chunk.css.map": "/deploy-store/static/css/main.8702bc04.chunk.css.map",
-    "static/js/2.b37b0bd6.chunk.js.LICENSE.txt": "/deploy-store/static/js/2.b37b0bd6.chunk.js.LICENSE.txt",
+    "static/css/main.0b7f2ebf.chunk.css.map": "/deploy-store/static/css/main.0b7f2ebf.chunk.css.map",
+    "static/js/2.ddd71125.chunk.js.LICENSE.txt": "/deploy-store/static/js/2.ddd71125.chunk.js.LICENSE.txt",
     "static/media/Productos-e-commerse_pizzas-fiorentina_1080x.2feeeaac.png": "/deploy-store/static/media/Productos-e-commerse_pizzas-fiorentina_1080x.2feeeaac.png",
     "static/media/Productos-e-commerse_pizzas-jamon-y-queso_1080x.1404a40e.png": "/deploy-store/static/media/Productos-e-commerse_pizzas-jamon-y-queso_1080x.1404a40e.png",
+    "static/media/bg-breakfast.35c5872a.jpg": "/deploy-store/static/media/bg-breakfast.35c5872a.jpg",
     "static/media/ilforno-restauranteitaliano-colombia-pasta-carbonara-camaron_1080x.caa27aac.png": "/deploy-store/static/media/ilforno-restauranteitaliano-colombia-pasta-carbonara-camaron_1080x.caa27aac.png",
     "static/media/img-carousel-1.29dfd1e6.jpg": "/deploy-store/static/media/img-carousel-1.29dfd1e6.jpg",
     "static/media/img-carousel-2.a6649cf7.jpg": "/deploy-store/static/media/img-carousel-2.a6649cf7.jpg",
@@ -31,10 +32,10 @@
     "static/media/pasta_bolonesa_ilforno_1080x.4595de16.jpg": "/deploy-store/static/media/pasta_bolonesa_ilforno_1080x.4595de16.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.897d5cae.js",
+    "static/js/runtime-main.933c36a8.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.b37b0bd6.chunk.js",
-    "static/css/main.8702bc04.chunk.css",
-    "static/js/main.e56f3432.chunk.js"
+    "static/js/2.ddd71125.chunk.js",
+    "static/css/main.0b7f2ebf.chunk.css",
+    "static/js/main.fcd131c3.chunk.js"
   ]
 }
