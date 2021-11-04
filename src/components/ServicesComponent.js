@@ -24,10 +24,10 @@ const ServicesComponent = () => {
         <Container>
             <Row>
                 <Col className='p-4'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non similique facilis iure rem! Similique qui incidunt quas voluptatem labore repellat possimus reiciendis dolorem, ipsa laboriosam architecto? Provident, ab ducimus?</p>
+                    <p style={serviceStyles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non similique facilis iure rem! Similique qui incidunt quas voluptatem labore repellat possimus reiciendis dolorem, ipsa laboriosam architecto? Provident, ab ducimus?</p>
                 </Col>
-                <Col className='p-4'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non similique facilis iure rem! Similique qui incidunt quas voluptatem labore repellat possimus reiciendis dolorem, ipsa laboriosam architecto? Provident, ab ducimus?</p>
+                <Col className='p-4' >
+                    <p style={serviceStyles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non similique facilis iure rem! Similique qui incidunt quas voluptatem labore repellat possimus reiciendis dolorem, ipsa laboriosam architecto? Provident, ab ducimus?</p>
                 </Col>
             </Row>
             <Row>
@@ -47,6 +47,13 @@ const ServicesComponent = () => {
             </Row>
         </Container>
     )
+}
+
+const serviceStyles = {
+    p:
+    {
+        textAlign : 'justify'
+    }
 }
 
 export default ServicesComponent;
