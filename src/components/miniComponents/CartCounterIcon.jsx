@@ -1,10 +1,12 @@
-import React, { useEffect } from 'react'
-import { getCartItems } from '../../modules/cart'
+import React, { useEffect, useContext } from 'react'
+import CartContext from '../../modules/CartContext'
 
 function CartCounterIcon(props) {
 
+    const CartCxt = useContext(CartContext)
+
     return (
-        <div style={countIcon.div}><p style={countIcon.p}>{getCartItems().length}</p></div>
+        <div style={countIcon.div}><p style={countIcon.p}>{CartCxt.length}</p></div>
     )
 }
 

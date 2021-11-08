@@ -9,19 +9,28 @@ import About from './pages/About'
 import Menu from './pages/Menu'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
+import CartPage from './pages/CartPage'
+import CartContext from './modules/CartContext';
+
+import {getCartItems} from './modules/cart'
 
 function App() {
+
+  
   return (
 
-    <Router>
-      <Navigation/>
-      <Route path="/deploy-store" exact component={Home}/>
-      <Route path="/deploy-store/About"  component={About}/>
-      <Route path="/deploy-store/Menu"  component={Menu}/>
-      <Route path="/deploy-store/Services"  component={Services}/>
-      <Route path="/deploy-store/Contact"  component={Contact}/>
-      <Footer/>
-    </Router>
+    <CartContext.Provider value={getCartItems()}>
+      <Router>
+        <Navigation/>
+        <Route path="/deploy-store" exact component={Home}/>
+        <Route path="/deploy-store/About"  component={About}/>
+        <Route path="/deploy-store/Menu"  component={Menu}/>
+        <Route path="/deploy-store/Services"  component={Services}/>
+        <Route path="/deploy-store/Contact"  component={Contact}/>
+        <Route path="/deploy-store/CartPage"  component={CartPage}/>
+        <Footer/>
+      </Router>
+    </CartContext.Provider>
     
   );
 }
