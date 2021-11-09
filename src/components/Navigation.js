@@ -7,7 +7,10 @@ import CartCounterIcon from './miniComponents/CartCounterIcon';
 
 
 
+
 const Navegacion = () => {
+
+    
 
   return (
     <Container  id="header">
@@ -27,7 +30,7 @@ const Navegacion = () => {
                     <Link className="nav-link" to="/deploy-store/Menu">Menú</Link>
                     <Link className="nav-link active" to="/deploy-store/Services">Servicios</Link>
                     <Link className="nav-link" to="/deploy-store/Contact">Contáctanos</Link>
-                    <Link className="nav-link position-relative" to="/deploy-store/Cart">
+                    <Link className="nav-link position-relative" to="/deploy-store/CartPage">
                         <CartCounterIcon />
                         <img src='https://cdn-icons-png.flaticon.com/512/2331/2331970.png' width='50px'/>
                     </Link>
