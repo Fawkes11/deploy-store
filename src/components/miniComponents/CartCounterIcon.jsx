@@ -1,12 +1,21 @@
 import React, { useEffect, useContext } from 'react'
 import CartContext from '../../modules/CartContext'
 
-function CartCounterIcon(props) {
+function CartCounterIcon() {
 
-    const CartCxt = useContext(CartContext)
+    const CartCtx = useContext(CartContext)
 
     return (
-        <div style={countIcon.div}><p style={countIcon.p}>{CartCxt.length}</p></div>
+        <div style={countIcon.div}>
+            <p
+            style={countIcon.p}>
+                {
+                    CartCtx.cart.reduce(function (acc, item){
+                        return acc + item.qty
+                    },0)
+                }
+            </p>
+        </div>
     )
 }
 

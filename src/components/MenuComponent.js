@@ -43,11 +43,13 @@ const MenuComponent = () => {
                             <Col className='cElementsMenu' key={pro.id}>
 
                                 <ProductCard
+                                id={pro.id}
                                 photo={pro.imagen}
                                 name={pro.product}
                                 type={pro.type}
                                 size={pro.tamaño}
                                 price={pro.precio}
+                                ingredientes={pro.ingredientes}
                                 />
 
                             </Col> 

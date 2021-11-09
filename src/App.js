@@ -14,12 +14,19 @@ import CartContext from './modules/CartContext';
 
 import {getCartItems} from './modules/cart'
 
+import useCart from './modules/useCart';
+
+
 function App() {
 
+  const {cart, addToCart} = useCart([])
   
   return (
 
-    <CartContext.Provider value={getCartItems()}>
+    <CartContext.Provider value={{
+      cart,
+      addToCart,
+      }}>
       <Router>
         <Navigation/>
         <Route path="/deploy-store" exact component={Home}/>
