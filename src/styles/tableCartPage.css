@@ -1,0 +1,56 @@
+body {
+  margin-top: 20px;
+  background: #ddd;
+}
+
+.table {
+  border-collapse: separate;
+}
+.table {
+  margin-bottom: 70px;
+}
+.table tbody > tr > td {
+  font-size: 0.875em;
+  background: #f5f5f5;
+  border-top: 10px solid #fff;
+  vertical-align: middle;
+  padding: 14px 0;
+}
+.total {
+  font-size: 2rem;
+}
+
+.currencyDollar {
+  margin-bottom: 5px;
+}
+
+.upper {
+  text-transform: capitalize;
+}
+
+.btn-group {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.sinItems {
+  text-decoration: none;
+  background-color: #bdab8e;
+  border-radius: 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 60px;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.notButton {
+  border: none;
+}
+
+.notButton:active,
+.btn-counter:active {
+  transform: scale(1.2);
+}
