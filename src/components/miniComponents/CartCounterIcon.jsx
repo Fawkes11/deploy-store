@@ -1,12 +1,14 @@
-import React, { useEffect, useContext } from 'react'
+import React, { useContext } from 'react'
 import CartContext from '../../modules/CartContext'
-
+import {getCartItemsLS} from '../../modules/useCart'
 function CartCounterIcon() {
 
     const CartCtx = useContext(CartContext)
 
     return (
-        <div style={countIcon.div}>
+        CartCtx.cart.length > 0 
+        ?
+        (<div style={countIcon.div}>
             <p
             style={countIcon.p}>
                 {
@@ -15,7 +17,8 @@ function CartCounterIcon() {
                     },0)
                 }
             </p>
-        </div>
+        </div>)
+        : ""
     )
 }
 
