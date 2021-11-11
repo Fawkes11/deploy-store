@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import CartContext from '../../modules/CartContext'
-import {getCartItemsLS} from '../../modules/useCart'
 function CartCounterIcon() {
 
     const CartCtx = useContext(CartContext)

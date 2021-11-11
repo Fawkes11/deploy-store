@@ -26,6 +26,9 @@ export default function useCart() {
   function removeFromCart(product) {
     setCart((prev) => [...prev.filter((item) => item.id !== product.id)]);
   }
+  function removeAllCart() {
+    setCart([]);
+  }
 
   function getCartItemsLS() {
     const data = localStorage.getItem("cart");
@@ -42,5 +45,6 @@ export default function useCart() {
     addToCart,
     changeQty,
     removeFromCart,
+    removeAllCart,
   };
 }

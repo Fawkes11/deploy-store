@@ -1,16 +1,13 @@
-import React from 'react'
-import Header from '../components/Header'
-import bg_header_services from '../images/bg-header-services.jpg'
-import FormContact from '../components/FormContact'
+import React from "react";
+import Header from "../components/Header";
+import bg_contact from "../images/bg-contact.jpg";
+import FormContact from "../components/FormContact";
 
-
-const Contact = () => {
-    return (
-        <div>
-            <Header fondo={bg_header_services}/>
-            <FormContact />
-        </div>
-    )
+export default function Contact() {
+  return (
+    <div>
+      <Header fondo={bg_contact} />
+      <FormContact />
+    </div>
+  );
 }
-
-export default Contact
