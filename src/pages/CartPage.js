@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import Header from "../components/Header";
-import bg_header_services from "../images/bg-header-services.jpg";
+import bg_cart from "../images/bg-cart.jpg";
 import CartContext from "../modules/CartContext";
 import {
   CurrencyDollar,
@@ -22,7 +22,7 @@ export default function CartPage() {
 
   return (
     <div className="container-table">
-      <Header fondo={bg_header_services} />
+      <Header fondo={bg_cart} position="top" />
 
       {checkout ? (
         <Checkout setCheckout={setCheckout} />

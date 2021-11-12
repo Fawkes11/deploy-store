@@ -8,10 +8,14 @@ const Header = (props) => {
         backgroundImage: `url(${props.fondo})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: `${props.position}`,
       }}
     ></div>
   );
+};
+
+Header.defaultProps = {
+  position: "center",
 };
 
 export default Header;

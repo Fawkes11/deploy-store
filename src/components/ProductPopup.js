@@ -34,7 +34,7 @@ function ProductPopup(props) {
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex justify-content-center aling-items-center">
+              {/* <Col className="d-flex justify-content-center aling-items-center">
                 <div className="form-outline" style={popupStyles.input}>
                   <input
                     type="number"
@@ -45,7 +45,7 @@ function ProductPopup(props) {
                     className="form-control"
                   />
                 </div>
-              </Col>
+              </Col> */}
               <Col>
                 <Button
                   style={popupStyles.button}
@@ -68,7 +68,6 @@ function ProductPopup(props) {
           {" "}
           X{" "}
         </Button>
-        {props.Children}
       </div>
     </div>
   ) : (
