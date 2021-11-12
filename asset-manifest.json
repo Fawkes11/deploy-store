@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deploy-store/static/css/main.deeeb6e9.chunk.css",
-    "main.js": "/deploy-store/static/js/main.8dbea135.chunk.js",
-    "main.js.map": "/deploy-store/static/js/main.8dbea135.chunk.js.map",
+    "main.js": "/deploy-store/static/js/main.359ae855.chunk.js",
+    "main.js.map": "/deploy-store/static/js/main.359ae855.chunk.js.map",
     "runtime-main.js": "/deploy-store/static/js/runtime-main.3fa7937a.js",
     "runtime-main.js.map": "/deploy-store/static/js/runtime-main.3fa7937a.js.map",
     "static/css/2.0a9ec390.chunk.css": "/deploy-store/static/css/2.0a9ec390.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/Productos-e-commerse_pizzas-fiorentina_1080x.2feeeaac.png": "/deploy-store/static/media/Productos-e-commerse_pizzas-fiorentina_1080x.2feeeaac.png",
     "static/media/Productos-e-commerse_pizzas-jamon-y-queso_1080x.1404a40e.png": "/deploy-store/static/media/Productos-e-commerse_pizzas-jamon-y-queso_1080x.1404a40e.png",
     "static/media/bg-breakfast.35c5872a.jpg": "/deploy-store/static/media/bg-breakfast.35c5872a.jpg",
+    "static/media/bg-cart.23c304b0.jpg": "/deploy-store/static/media/bg-cart.23c304b0.jpg",
     "static/media/bg-contact.72155fc3.jpg": "/deploy-store/static/media/bg-contact.72155fc3.jpg",
     "static/media/bg-header-services.91e6e1e7.jpg": "/deploy-store/static/media/bg-header-services.91e6e1e7.jpg",
     "static/media/ilforno-restauranteitaliano-colombia-pasta-carbonara-camaron_1080x.caa27aac.png": "/deploy-store/static/media/ilforno-restauranteitaliano-colombia-pasta-carbonara-camaron_1080x.caa27aac.png",
@@ -38,6 +39,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.48607fec.chunk.js",
     "static/css/main.deeeb6e9.chunk.css",
-    "static/js/main.8dbea135.chunk.js"
+    "static/js/main.359ae855.chunk.js"
   ]
 }
