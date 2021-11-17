@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/deploy-store/static/css/main.3049e585.chunk.css",
-    "main.js": "/deploy-store/static/js/main.d7c7aad3.chunk.js",
-    "main.js.map": "/deploy-store/static/js/main.d7c7aad3.chunk.js.map",
+    "main.js": "/deploy-store/static/js/main.977601bc.chunk.js",
+    "main.js.map": "/deploy-store/static/js/main.977601bc.chunk.js.map",
     "runtime-main.js": "/deploy-store/static/js/runtime-main.3fa7937a.js",
     "runtime-main.js.map": "/deploy-store/static/js/runtime-main.3fa7937a.js.map",
     "static/css/2.0a9ec390.chunk.css": "/deploy-store/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.7a34e0c1.chunk.js": "/deploy-store/static/js/2.7a34e0c1.chunk.js",
-    "static/js/2.7a34e0c1.chunk.js.map": "/deploy-store/static/js/2.7a34e0c1.chunk.js.map",
+    "static/js/2.18217e2e.chunk.js": "/deploy-store/static/js/2.18217e2e.chunk.js",
+    "static/js/2.18217e2e.chunk.js.map": "/deploy-store/static/js/2.18217e2e.chunk.js.map",
     "static/js/3.f032d083.chunk.js": "/deploy-store/static/js/3.f032d083.chunk.js",
     "static/js/3.f032d083.chunk.js.map": "/deploy-store/static/js/3.f032d083.chunk.js.map",
     "index.html": "/deploy-store/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/deploy-store/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.3049e585.chunk.css.map": "/deploy-store/static/css/main.3049e585.chunk.css.map",
-    "static/js/2.7a34e0c1.chunk.js.LICENSE.txt": "/deploy-store/static/js/2.7a34e0c1.chunk.js.LICENSE.txt",
+    "static/js/2.18217e2e.chunk.js.LICENSE.txt": "/deploy-store/static/js/2.18217e2e.chunk.js.LICENSE.txt",
     "static/media/Productos-e-commerse_pizzas-fiorentina_1080x.2feeeaac.png": "/deploy-store/static/media/Productos-e-commerse_pizzas-fiorentina_1080x.2feeeaac.png",
     "static/media/Productos-e-commerse_pizzas-jamon-y-queso_1080x.1404a40e.png": "/deploy-store/static/media/Productos-e-commerse_pizzas-jamon-y-queso_1080x.1404a40e.png",
     "static/media/bg-breakfast.35c5872a.jpg": "/deploy-store/static/media/bg-breakfast.35c5872a.jpg",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.3fa7937a.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.7a34e0c1.chunk.js",
+    "static/js/2.18217e2e.chunk.js",
     "static/css/main.3049e585.chunk.css",
-    "static/js/main.d7c7aad3.chunk.js"
+    "static/js/main.977601bc.chunk.js"
   ]
 }
