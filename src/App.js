@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navigation from "./components/Navigation";
@@ -19,12 +19,16 @@ function App() {
     <CartContext.Provider value={useCart([])}>
       <Router>
         <Navigation />
-        <Route path="/deploy-store" exact component={Home} />
-        <Route path="/deploy-store/About" component={About} />
-        <Route path="/deploy-store/Menu" component={Menu} />
-        <Route path="/deploy-store/Services" component={Services} />
-        <Route path="/deploy-store/Contact" component={Contact} />
-        <Route path="/deploy-store/CartPage" component={CartPage} />
+        <Switch>
+        <Route path="/" exact component={Home} />
+          <Route path="/Home" component={Home} />
+          <Route path="/About" component={About} />
+          <Route path="/Menu" component={Menu} />
+          <Route path="/Services" component={Services} />
+          <Route path="/Contact" component={Contact} />
+          <Route path="/CartPage" component={CartPage} />
+        </Switch>
+        
         <Footer />
       </Router>
     </CartContext.Provider>

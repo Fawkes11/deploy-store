@@ -27,7 +27,7 @@ const FormContact = () => {
             <h2 className="my-3">CONTÁCTANOS</h2>
             <InputGroup hasValidation className="my-3">
               <InputGroup.Text>Asunto</InputGroup.Text>
-              <Form.Control type="text" required Invalid />
+              <Form.Control type="text" required />
               <Form.Control.Feedback type="invalid">
                 Por favor ingrese un asunto valido.
               </Form.Control.Feedback>

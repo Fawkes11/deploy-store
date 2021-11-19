@@ -75,7 +75,7 @@ export default function CartPage() {
               </div>
 
               <div className="btn-group align-self-center">
-                <Link to="/deploy-store/Menu">
+                <Link to="/Menu">
                   <button type="button" className="btn btn-primary">
                     <ArrowLeftCircle size={22} /> Continue Shopping
                   </button>

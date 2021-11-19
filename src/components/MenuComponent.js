@@ -22,6 +22,7 @@ const MenuComponent = () => {
     }
     return (
         <Container fluid className="menuComponentContainer p-5">
+            <Container>
             <Row style={{paddingLeft: '150px', paddingRight: '150px'}}>
                 <Col style={{display: 'flex', justifyContent:'center'}}>
                     <h2>Menú</h2>
@@ -37,26 +38,30 @@ const MenuComponent = () => {
                 </Col>
             </Row>
             <Row style={{marginTop: '20px'}}>
-                {
-                    productos.map((pro) => {
-                        return(
-                            <Col className='cElementsMenu' key={pro.id}>
+                
+                    {
+                        productos.map((pro) => {
+                            return(
+                                <Col xs={12} md={6} lg={4} xl={3} className='cElementsMenu' key={pro.id}>
 
-                                <ProductCard
-                                id={pro.id}
-                                photo={pro.imagen}
-                                name={pro.product}
-                                type={pro.type}
-                                size={pro.tamaño}
-                                price={pro.precio}
-                                ingredientes={pro.ingredientes}
-                                />
+                                    <ProductCard
+                                    id={pro.id}
+                                    photo={pro.imagen}
+                                    name={pro.product}
+                                    type={pro.type}
+                                    size={pro.tamaño}
+                                    price={pro.precio}
+                                    ingredientes={pro.ingredientes}
+                                    />
 
-                            </Col> 
-                        )
-                    })
-                }             
+                                </Col> 
+                            )
+                        })
+                    }
+                            
             </Row>
+            </Container>
+            
         </Container>
     )
 }

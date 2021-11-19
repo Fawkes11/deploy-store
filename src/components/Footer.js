@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../images/logo@2x.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 import "../styles/footer.css";
 
@@ -20,21 +20,41 @@ export default class Footer extends Component {
 
         <div className="col-md-5 justify-content-start">
           <Nav>
-            <Link className="nav-link active" to="/deploy-store">
+          <NavLink
+              activeStyle={{
+                fontSize: "18px",
+                fontWeight: "bold",
+                color: "rgb(145, 73, 26)",
+              }}
+              className="nav-link"
+              to="/Home"
+            >
               Inicio
-            </Link>
-            <Link className="nav-link" to="/deploy-store/About">
+            </NavLink>
+            <NavLink activeStyle={{
+                fontWeight: "bold",
+                color: "rgb(145, 73, 26)",
+              }} className="nav-link" to="/About">
               Nosotros
-            </Link>
-            <Link className="nav-link" to="/deploy-store/Menu">
+            </NavLink>
+            <NavLink activeStyle={{
+                fontWeight: "bold",
+                color: "rgb(145, 73, 26)",
+              }} className="nav-link" to="/Menu">
               Menú
-            </Link>
-            <Link className="nav-link" to="/deploy-store/Services">
+            </NavLink>
+            <NavLink activeStyle={{
+                fontWeight: "bold",
+                color: "rgb(145, 73, 26)",
+              }} className="nav-link" to="/Services">
               Servicios
-            </Link>
-            <Link className="nav-link" to="/deploy-store/Contact">
+            </NavLink>
+            <NavLink activeStyle={{
+                fontWeight: "bold",
+                color: "rgb(145, 73, 26)",
+              }} className="nav-link" to="/Contact">
               Contáctanos
-            </Link>
+            </NavLink>
           </Nav>
           <div className="ps-3">
             <p>

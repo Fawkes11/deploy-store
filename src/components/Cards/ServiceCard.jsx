@@ -10,7 +10,7 @@ const ServiceCard = (props) => {
       <Card.Body className="serviceCardBody">
         <Card.Title>{props.tittle}</Card.Title>
         <Card.Text>{props.text}</Card.Text>
-        <Link to="/deploy-store/Services">
+        <Link to="/Services">
           <Button variant="primary">Mas Info...</Button>
         </Link>
       </Card.Body>
